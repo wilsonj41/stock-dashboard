@@ -1125,6 +1125,9 @@ function App() {
             Enter the admin password once to edit stocks and colors in this tab.
             Reloading or closing the tab locks editing again.
           </p>
+          <p className="mb-6 rounded-xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-700">
+            Demo Password: 123456
+          </p>
           <form onSubmit={unlock}>
             <label htmlFor="password" className="text-sm font-semibold">
               Admin password

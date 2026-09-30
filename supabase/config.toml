@@ -1,0 +1,2 @@
+[functions.dashboard]
+verify_jwt = false
